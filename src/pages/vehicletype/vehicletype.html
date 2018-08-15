@@ -1,0 +1,37 @@
+<!--
+  Generated template for the VehicletypePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>vehicletype</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list>
+    <ion-item (click)="selecttype('Sedan')">
+      <ion-label fixed>Sedan</ion-label>
+    </ion-item>  
+    <ion-item (click)="selecttype('Hatchback')">
+      <ion-label fixed>Hatchback</ion-label>
+    </ion-item>  
+    <ion-item (click)="selecttype('SUV')">
+      <ion-label fixed>SUV</ion-label>
+    </ion-item>
+    <ion-item (click)="selecttype('Mini-van')">
+      <ion-label fixed>Mini-van</ion-label>
+    </ion-item>
+    <ion-item (click)="selecttype('Jeep')">
+      <ion-label fixed>Jeep</ion-label>
+    </ion-item>
+    <ion-item (click)="selecttype('Other')">
+      <ion-label fixed>Other</ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
